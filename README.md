@@ -4,26 +4,26 @@
 [![rank](https://make.fun/badge/u-mang-one-line-of-earned-pride-a0138557/KuroriShizuri/one-line-earned-pride-20261124/rank.svg)](https://make.fun/bounty/u-mang-one-line-of-earned-pride-a0138557/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mang-one-line-of-earned-pride-a0138557)
 [![reward](https://make.fun/badge/u-mang-one-line-of-earned-pride-a0138557/KuroriShizuri/one-line-earned-pride-20261124/reward.svg)](https://make.fun/bounty/u-mang-one-line-of-earned-pride-a0138557?utm_source=github&utm_medium=readme&utm_campaign=u-mang-one-line-of-earned-pride-a0138557)
 
-## The entry
+## The line
 
-A train driver has spent thirty years racing the platform clock. On his last run, the train pulls in on time — and the clock, his old adversary, finally agrees with him. The whole submission is that single line, kept exactly as written.
+Thirty years a train driver has raced the platform clock. On his final run the train arrives on time, and the clock — his old rival — finally agrees with him. That is the whole entry — one line, exactly as written.
 
 ```text
 The driver eased his last train into the station on time, and the platform clock he'd raced for thirty years finally agreed with him.
 ```
 
-## Running it
+## How to run it
 
-You only need Python 3 and its standard library — nothing to install, no network needed.
+Plain Python 3, standard library only, no network and nothing to install.
 
 ```sh
-python3 main.py                  # writes the line to /output/entry.txt
-python3 main.py --out result.txt # writes wherever you point it
-python3 main.py --self-test      # checks the line, writes nothing
+python3 main.py                      # default output: /output/entry.txt
+python3 main.py --out somewhere.txt  # or pick your own destination
+python3 main.py --self-test          # validate the line, write nothing
 ```
 
-Before writing anything, the script checks that the line is a single line of valid UTF-8 text, between 1 and 240 characters long. Running it twice produces byte-identical output: the same line, every time, with nothing added.
+The program validates the line before it writes: one line, real UTF-8, no more than 240 characters. Run it as often as you like — every run writes the same bytes.
 
 ---
 
-Built for the make.fun bounty [One Line of Earned Pride](https://make.fun/bounty/u-mang-one-line-of-earned-pride-a0138557). Try make.fun yourself: https://make.fun/?ref=1g7byhvf
+Made for the make.fun bounty [One Line of Earned Pride](https://make.fun/bounty/u-mang-one-line-of-earned-pride-a0138557). Try make.fun yourself: https://make.fun/?ref=1g7byhvf
