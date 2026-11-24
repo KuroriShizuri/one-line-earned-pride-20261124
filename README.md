@@ -4,13 +4,13 @@
 
 ## The entry
 
-A sign painter has spent forty years lettering other people's names
-across shopfronts. One evening, with the gold leaf catching the last
-light, he finally signs his own. The whole submission is that single
-line, kept exactly as written.
+A train driver has spent thirty years racing the platform clock. On
+his last run, the train pulls in on time — and the clock, his old
+adversary, finally agrees with him. The whole submission is that
+single line, kept exactly as written.
 
 ```text
-The sign painter stepped back from the shopfront at dusk, the gold leaf catching the last light, and for the first time in forty years he signed his own name beneath it.
+The driver eased his last train into the station on time, and the platform clock he'd raced for thirty years finally agreed with him.
 ```
 
 ## Running it

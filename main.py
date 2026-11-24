@@ -17,9 +17,8 @@ from pathlib import Path
 
 # The entry itself. One line, plain text, no newline at the end.
 ENTRY_LINE = (
-    "The sign painter stepped back from the shopfront at dusk, the gold "
-    "leaf catching the last light, and for the first time in forty years "
-    "he signed his own name beneath it."
+    "The driver eased his last train into the station on time, and the "
+    "platform clock he'd raced for thirty years finally agreed with him."
 )
 
 # Where the line goes when no --out flag is given.
